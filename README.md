@@ -1,6 +1,6 @@
 # ASP.NET Core Performance Tuning
 This is a demo web application for the
-“[ASP.NET Core Performance Tuning](http://sikorsky.pro/en/blog/”
+“[ASP.NET Core Performance Tuning](http://sikorsky.pro/en/blog/)”
 post on the [Dmitry Sikorsky’s blog](http://sikorsky.pro/en/blog) (coming soon).
 It shows and tests different small features you can use to tune your ASP.NET Core web application performance.
 
