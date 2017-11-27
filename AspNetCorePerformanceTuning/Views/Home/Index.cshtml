@@ -1,0 +1,21 @@
+﻿@* Copyright © 2017 Dmitry Sikorsky. All rights reserved. *@
+@* Licensed under the Apache License, Version 2.0. See License.txt in the project root for license information. *@
+@model AspNetCorePerformanceTuning.ViewModels.Home.IndexViewModel
+<h1>ASP.NET Core Performance Tuning</h1>
+<div class="menu">
+  @foreach (var category in this.Model.Categories)
+  {
+    <div class="menu__item">@category.Name</div>
+  }
+</div>
+<div class="articles">
+  @foreach (var article in this.Model.Articles)
+  {
+    <div class="articles__article article">
+      <div class="article__category">@article.Category.Name</div>
+      <div class="article__name">@article.Name</div>
+      <div class="article__price">$@article.Price.ToString("0.00")</div>
+      <div class="article__photo">@article.Photo.Filename</div>
+    </div>
+  }
+</div>

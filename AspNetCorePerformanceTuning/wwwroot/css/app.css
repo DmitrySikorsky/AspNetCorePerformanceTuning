@@ -1,0 +1,74 @@
+﻿/* Copyright © 2017 Dmitry Sikorsky. All rights reserved. */
+/* Licensed under the Apache License, Version 2.0. See License.txt in the project root for license information. */
+
+/* Global things */
+html, body {
+  color: #323232;
+  font: normal 20px 'Open Sans', sans-serif;
+  line-height: 1.5;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 50px;
+}
+
+h1, h2 {
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 40px;
+  margin-top: 40px;
+}
+
+/* Menu */
+.menu {
+  background: #f0f0f0;
+}
+
+.menu__item {
+  display: inline-block;
+  padding: 10px 5px;
+}
+
+/* Articles */
+.articles {
+  overflow: hidden;
+}
+
+.articles__article {
+  box-sizing: border-box;
+  float: left;
+  width: 50%;
+}
+
+/* Article */
+.article {
+  border: 1px solid #f0f0f0;
+  padding: 20px;
+}
+
+.article__category {
+  color: #ccc;
+}
+
+.article__name {
+}
+
+.article__price {
+  font-size: 40px;
+}
+
+.article__photo {
+  background: #f0f0f0;
+  line-height: 100px;
+}

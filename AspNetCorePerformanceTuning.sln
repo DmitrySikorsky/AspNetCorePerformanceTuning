@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCorePerformanceTuning", "AspNetCorePerformanceTuning\AspNetCorePerformanceTuning.csproj", "{6170B3CB-6E0E-44B6-AC59-951CEA7F6869}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tester", "Tester\Tester.csproj", "{08136F86-B1C3-4D01-988B-F6A800714485}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6170B3CB-6E0E-44B6-AC59-951CEA7F6869}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6170B3CB-6E0E-44B6-AC59-951CEA7F6869}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6170B3CB-6E0E-44B6-AC59-951CEA7F6869}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6170B3CB-6E0E-44B6-AC59-951CEA7F6869}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08136F86-B1C3-4D01-988B-F6A800714485}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08136F86-B1C3-4D01-988B-F6A800714485}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08136F86-B1C3-4D01-988B-F6A800714485}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08136F86-B1C3-4D01-988B-F6A800714485}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54723811-A5F9-4B0A-8B2C-5AED64EA085A}
+	EndGlobalSection
+EndGlobal
